@@ -1,0 +1,35 @@
+[
+  { "kind": "GENERALIZES", "from": "erdos-ap-conjecture", "to": "szemeredi-theorem", "status": "accepted", "map": "positive density ⇒ divergent reciprocals", "note": "documented" },
+  { "kind": "GENERALIZES", "from": "erdos-ap-conjecture", "to": "green-tao", "status": "accepted", "map": "∑ 1/p diverges ⇒ Green–Tao is a special case", "note": "documented" },
+  { "kind": "GENERALIZES", "from": "structure-vs-randomness", "to": "erdos-ap-conjecture", "status": "accepted", "note": "editorial — the dichotomy frames the AP problem" },
+  { "kind": "GENERALIZES", "from": "structure-vs-randomness", "to": "erdos-discrepancy", "status": "accepted", "note": "editorial — ±1-sequence structure vs randomness" },
+
+  { "kind": "REDUCES_TO", "from": "szemeredi-theorem", "to": "furstenberg-recurrence", "status": "accepted", "map": "Furstenberg correspondence principle", "note": "documented" },
+  { "kind": "REDUCES_TO", "from": "furstenberg-recurrence", "to": "szemeredi-theorem", "status": "accepted", "map": "correspondence principle (reverse)", "note": "documented — mutual ⇒ equivalence" },
+
+  { "kind": "INVOLVES", "from": "szemeredi-theorem", "to": "M-regularity-transference", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "green-tao", "to": "M-regularity-transference", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "erdos-discrepancy", "to": "M-multiplicative", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "erdos-distinct-distances", "to": "M-polynomial-partitioning", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "erdos-szekeres", "to": "M-ramsey", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "erdos-hajnal", "to": "M-ramsey", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "ramsey-growth", "to": "M-ramsey", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "erdos-renyi-giant", "to": "M-probabilistic-method", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "ramsey-growth", "to": "M-probabilistic-method", "status": "accepted", "note": "documented (Erdős's lower bound)" },
+
+  { "kind": "GENERALIZES", "from": "szemeredi-theorem", "to": "roth-theorem", "status": "accepted", "map": "Szemerédi (all k) restricts to Roth (k=3)", "note": "documented" },
+  { "kind": "REDUCES_TO", "from": "roth-theorem", "to": "triangle-removal-lemma", "status": "accepted", "map": "Ruzsa–Szemerédi: the removal lemma implies Roth", "note": "documented" },
+
+  { "kind": "INVOLVES", "from": "roth-theorem", "to": "M-fourier-analytic", "status": "accepted", "note": "documented (Roth's original proof)" },
+  { "kind": "INVOLVES", "from": "erdos-sidon-basis", "to": "M-fourier-analytic", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "cap-set", "to": "M-polynomial-partitioning", "status": "accepted", "note": "documented (slice rank)" },
+  { "kind": "INVOLVES", "from": "off-diagonal-ramsey", "to": "M-ramsey", "status": "accepted", "note": "documented" },
+
+  { "kind": "INVOLVES", "from": "erdos-ko-rado", "to": "M-extremal-set-theory", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "sunflower-conjecture", "to": "M-extremal-set-theory", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "erdos-faber-lovasz", "to": "M-extremal-set-theory", "status": "accepted", "note": "documented (linear hypergraphs are set systems)" },
+
+  { "kind": "INVOLVES", "from": "erdos-distinct-distances", "to": "M-incidence-geometry", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "erdos-unit-distances", "to": "M-incidence-geometry", "status": "accepted", "note": "documented" },
+  { "kind": "INVOLVES", "from": "hadwiger-nelson", "to": "M-incidence-geometry", "status": "accepted", "note": "documented (unit-distance graph coloring)" }
+]

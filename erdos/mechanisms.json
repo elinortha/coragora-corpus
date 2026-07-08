@@ -1,0 +1,42 @@
+[
+  {
+    "id": "M-regularity-transference",
+    "name": "regularity + higher-order Fourier + transference",
+    "signature": "a dense/relative object; a decomposition into structured + pseudorandom parts; a counting/transference step that finds patterns in the structured part"
+  },
+  {
+    "id": "M-multiplicative",
+    "name": "logarithmically-averaged multiplicative functions (Elliott/Chowla)",
+    "signature": "a bounded multiplicative or ±1 sequence; a correlation to control; an entropy-decrement / averaged-Elliott step"
+  },
+  {
+    "id": "M-polynomial-partitioning",
+    "name": "the polynomial method",
+    "signature": "a combinatorial extremal question; a polynomial vanishing on or interpolating a structured set; a rank/degree bound (slice rank, polynomial partitioning) limiting the configuration"
+  },
+  {
+    "id": "M-ramsey",
+    "name": "Ramsey-type forcing (pigeonhole at scale)",
+    "signature": "a large enough structure; a finite palette of local configurations; a guarantee that size forces a prescribed ordered/monochromatic substructure"
+  },
+  {
+    "id": "M-probabilistic-method",
+    "name": "the probabilistic method",
+    "signature": "an object to show exists/bound; a random construction; a positive-probability / concentration argument"
+  },
+  {
+    "id": "M-fourier-analytic",
+    "name": "Fourier analysis / circle method",
+    "signature": "a counting problem over the integers or a finite group; a Fourier transform; a density-increment or uniformity argument"
+  },
+  {
+    "id": "M-extremal-set-theory",
+    "name": "extremal set theory",
+    "signature": "a family of finite sets; an intersection / spread / covering condition; an extremal bound on the family's size"
+  },
+  {
+    "id": "M-incidence-geometry",
+    "name": "combinatorial geometry of distances",
+    "signature": "points in the plane; a distance / incidence / coloring question; a combinatorial extremal bound"
+  }
+]

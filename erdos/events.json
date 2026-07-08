@@ -1,0 +1,13 @@
+[
+  {
+    "type": "CLOSE",
+    "problem": "erdos-unit-distances",
+    "at": "2026-05-15",
+    "by": "agent:openai-internal-model",
+    "closure": {
+      "kind": "resolved",
+      "mode": "m-neg",
+      "artifact": "Disproof of the unit distance conjecture — an OpenAI internal model (Claude Mythos also credited), verified in Lean, May 2026. Erdős problem #90. See arXiv:2605.20695 'Remarks on the disproof of the unit distance conjecture'."
+    }
+  }
+]

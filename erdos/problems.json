@@ -13,6 +13,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős–Turán 1936", "open even for 3-term APs"]
   },
   {
@@ -26,6 +27,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Szemerédi 1975" },
     "refs": ["Szemerédi 1975"]
   },
@@ -40,6 +42,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Green–Tao 2004" },
     "refs": ["Green–Tao 2008 (Annals)", "special case of erdos-ap-conjecture: ∑1/p diverges"]
   },
@@ -54,6 +57,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Furstenberg 1977" },
     "refs": ["Furstenberg 1977", "equivalent to Szemerédi via the correspondence principle"]
   },
@@ -68,6 +72,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Tao 2015/2016" },
     "refs": ["Tao 2016 (Discrete Analysis)", "via logarithmically-averaged Elliott/Chowla"]
   },
@@ -82,6 +87,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős–Szekeres 1935", "asymptotics resolved by Suk 2016; exact bound open"]
   },
   {
@@ -95,6 +101,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős–Hajnal 1989", "open in general; many special cases known"]
   },
   {
@@ -108,6 +115,7 @@
     "assumptions": [],
     "type": "measurement",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős 1947 probabilistic lower bound", "upper bound improved (Campos–Griffiths–Morris–Sahasrabudhe 2023); exact base open"]
   },
   {
@@ -121,6 +129,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Kang–Kelly–Kühn–Methuku–Osthus 2021 (large n)" },
     "refs": ["proved for all large n, 2021 (Annals 2023)"]
   },
@@ -135,6 +144,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Guth–Katz 2015" },
     "refs": ["Guth–Katz 2015 (Annals)", "polynomial partitioning"]
   },
@@ -152,6 +162,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős 1946 (one of his favourites)", "status here is the pre-2026 snapshot; closed by an event — see events.json"]
   },
   {
@@ -165,6 +176,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Erdős–Ko–Rado 1961" },
     "refs": ["Erdős–Ko–Rado 1961"]
   },
@@ -179,6 +191,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős–Straus ~1948", "verified to large bounds; open"]
   },
   {
@@ -192,6 +205,7 @@
     "assumptions": [],
     "type": "model",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Erdős–Rényi 1960" },
     "refs": ["Erdős–Rényi 1960", "canonical emergence / phase transition"]
   },
@@ -206,6 +220,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős–Turán 1941", "open"]
   },
   {
@@ -219,6 +234,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős–Gyárfás 1995", "open; some cases known"]
   },
   {
@@ -232,6 +248,7 @@
     "assumptions": [],
     "type": "definitional",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["organizing theme (Tao); inserted as an explicit top node for the demo"]
   },
   {
@@ -245,6 +262,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Roth 1953; bounds sharpened by Kelley–Meka 2023 (quasi-polynomial) and Bloom–Sisask" },
     "refs": ["Roth 1953", "the k=3 case of Szemerédi", "Kelley–Meka 2023 (arXiv:2302.07211)"]
   },
@@ -259,6 +277,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Croot–Lev–Pach / Ellenberg–Gijswijt 2016 — ≤ 2.756^n via the polynomial (slice-rank) method" },
     "refs": ["Ellenberg–Gijswijt 2016", "finite-field model of Roth", "polynomial / slice-rank method"]
   },
@@ -273,6 +292,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Ruzsa–Szemerédi 1976 — a consequence of the regularity lemma" },
     "refs": ["Ruzsa–Szemerédi 1976", "implies Roth's theorem"]
   },
@@ -290,6 +310,7 @@
     "assumptions": [],
     "type": "measurement",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Hadwiger–Nelson ~1950", "de Grey 2018: χ ≥ 5 via a 1581-vertex unit-distance graph (computer-assisted); Polymath16"]
   },
   {
@@ -303,6 +324,7 @@
     "assumptions": [],
     "type": "measurement",
     "status": "closed",
+    "domain": "mathematics",
     "closure": { "kind": "resolved", "mode": "m-pos", "artifact": "Kim 1995 (lower) + Shearer (upper); leading constant by Fiz Pontiveros–Griffiths–Morris & Bohman–Keevash" },
     "refs": ["Θ(k²/log k)", "order of magnitude resolved"]
   },
@@ -317,6 +339,7 @@
     "assumptions": [],
     "type": "conjecture",
     "status": "open",
+    "domain": "mathematics",
     "refs": ["Erdős–Rado 1960", "Alweiss–Lovett–Wu–Zhang 2019: (log k)^k; conjecture (c^k) still open"]
   }
 ]

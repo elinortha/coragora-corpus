@@ -1,0 +1,981 @@
+[
+  {
+    "id": "se-cstheory-3309",
+    "slug": "status-of-cerny-conjecture",
+    "title": "Černý conjecture (synchronizing automata)",
+    "spec_version": 1,
+    "statement": "Every synchronizing DFA on n states admits a synchronizing (reset) word of length at most (n−1)². The best known general upper bound is cubic in n; the quadratic bound is open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof of the (n−1)² reset-word bound (or a family beating it)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of the quadratic bound"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit an n-state synchronizing DFA whose shortest reset word exceeds (n−1)²"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "cstheory.SE",
+      "url": "https://cstheory.stackexchange.com/questions/3309/status-of-cerny-conjecture",
+      "source_id": "3309",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://cstheory.stackexchange.com/questions/3309/status-of-cerny-conjecture",
+      "Černý 1964",
+      "best known upper bound ~ (n³−n)/6 (Pin/Frankl; Szykuła 2018 improved the constant)"
+    ]
+  },
+  {
+    "id": "se-cstheory-31835",
+    "slug": "delta-57-d-2-moore-graph",
+    "title": "Missing Moore graph (degree 57, diameter 2)",
+    "spec_version": 1,
+    "statement": "Does a Moore graph of degree 57 and diameter 2 exist — a 57-regular graph on 3250 vertices with girth 5? By Hoffman–Singleton such graphs exist only for degree 2, 3, 7, 57, and the degree-57 case is the sole one whose existence is undecided.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "artifact",
+        "description": "a 57-regular girth-5 graph on 3250 vertices, or a proof none exists"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "exhibit the graph (a valid construction)"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "an accepted non-existence proof"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "cstheory.SE",
+      "url": "https://cstheory.stackexchange.com/questions/31835/delta-57-d-2-moore-graph",
+      "source_id": "31835",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://cstheory.stackexchange.com/questions/31835/delta-57-d-2-moore-graph",
+      "Hoffman–Singleton 1960",
+      "known: any such graph has a trivial automorphism group (Mačaj–Širáň 2010)"
+    ]
+  },
+  {
+    "id": "se-cstheory-791",
+    "slug": "grid-k-coloring-without-monochromatic-rectangles",
+    "title": "Rectangle-free grid coloring",
+    "spec_version": 1,
+    "statement": "For which grid sizes m×n does a c-coloring exist with no monochromatic combinatorial rectangle (four cells at the intersections of two rows and two columns all sharing one color)? Determine, for each number of colors c, the largest grid that is c-colorable rectangle-free.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "design",
+        "description": "the exact rectangle-free threshold grid for each color count c (a coloring or an impossibility bound)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "matching bounds pinning the largest c-colorable grid"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit a rectangle-free c-coloring of a grid conjectured to be uncolorable"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "measurement",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "cstheory.SE",
+      "url": "https://cstheory.stackexchange.com/questions/791/grid-k-coloring-without-monochromatic-rectangles",
+      "source_id": "791",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://cstheory.stackexchange.com/questions/791/grid-k-coloring-without-monochromatic-rectangles",
+      "a Ramsey / Zarankiewicz-type grid-coloring problem",
+      "the 4-coloring of the 17×17 grid was resolved (Steinbach–Posthoff 2012)"
+    ]
+  },
+  {
+    "id": "se-cstheory-1814",
+    "slug": "a-combinatorial-version-for-the-polynomial-hirsch-conjecture",
+    "title": "Combinatorial polynomial Hirsch conjecture",
+    "spec_version": 1,
+    "statement": "In the purely combinatorial abstraction of polytope vertex–facet adjacency, is the diameter of the \"graph\" bounded by a polynomial in the number of facets and the dimension? A polynomial combinatorial bound would give a polynomial bound on polytope diameters (a weak polynomial Hirsch conjecture).",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a polynomial upper bound on the combinatorial diameter (or a super-polynomial lower bound)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted polynomial upper bound on the combinatorial diameter"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "cstheory.SE",
+      "url": "https://cstheory.stackexchange.com/questions/1814/a-combinatorial-version-for-the-polynomial-hirsch-conjecture",
+      "source_id": "1814",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://cstheory.stackexchange.com/questions/1814/a-combinatorial-version-for-the-polynomial-hirsch-conjecture",
+      "Polymath3 (Kalai) 2010",
+      "connected to the (disproved exact) Hirsch conjecture — Santos 2012 counterexample"
+    ]
+  },
+  {
+    "id": "se-cstheory-5101",
+    "slug": "efficiently-computable-function-as-a-counter-example-to-sarn",
+    "title": "Computable counterexample to Sarnak's Möbius conjecture",
+    "spec_version": 1,
+    "statement": "Is there a boolean function computable within a weak complexity class (e.g. AC⁰, or small circuits) that correlates non-trivially with the Möbius function μ(n)? Sarnak's conjecture predicts μ is disjoint from all low-complexity/deterministic sequences; a computable correlation would refute it in that model.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "artifact",
+        "description": "an efficiently-computable sequence correlating with μ, or a proof of Möbius disjointness for the class"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of Möbius disjointness for the complexity class"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit a low-complexity function correlating with μ (a counterexample)"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "cstheory.SE",
+      "url": "https://cstheory.stackexchange.com/questions/5101/efficiently-computable-function-as-a-counter-example-to-sarnaks-mobius-conjectu",
+      "source_id": "5101",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://cstheory.stackexchange.com/questions/5101/efficiently-computable-function-as-a-counter-example-to-sarnaks-mobius-conjectu",
+      "Sarnak's Möbius disjointness conjecture (2010)",
+      "related to the Chowla conjecture; known unconditionally for AC⁰ (Green 2012)"
+    ]
+  },
+  {
+    "id": "se-cstheory-2429",
+    "slug": "is-the-3-sphere-recognition-problem-np-complete",
+    "title": "3-sphere recognition: exact complexity",
+    "spec_version": 1,
+    "statement": "Determine the exact computational complexity of recognizing the 3-sphere from a triangulation. It is known to lie in NP (Schleimer) and, assuming GRH, also in coNP (Hass–Kuperberg); whether it is NP-complete, polynomial-time, or of intermediate complexity is open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a tight complexity classification of 3-sphere recognition"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted complexity classification (e.g. a polynomial algorithm or an NP-hardness proof)"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "measurement",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "cstheory.SE",
+      "url": "https://cstheory.stackexchange.com/questions/2429/is-the-3-sphere-recognition-problem-np-complete",
+      "source_id": "2429",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://cstheory.stackexchange.com/questions/2429/is-the-3-sphere-recognition-problem-np-complete",
+      "Rubinstein/Thompson decidability",
+      "in NP: Schleimer 2004; in coNP under GRH: Hass–Kuperberg"
+    ]
+  },
+  {
+    "id": "se-cstheory-178",
+    "slug": "approximating-the-sign-rank-of-a-matrix",
+    "title": "Approximating the sign rank of a matrix",
+    "spec_version": 1,
+    "statement": "What is the complexity of approximating the sign rank (dimension complexity) of a ±1 matrix — the least dimension in which the sign pattern is realizable by a real arrangement? Even coarse approximation is not known to be tractable, and exact computation is hard.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "an approximation algorithm for sign rank, or a hardness-of-approximation result"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted approximation guarantee or matching hardness result"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "measurement",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "cstheory.SE",
+      "url": "https://cstheory.stackexchange.com/questions/178/approximating-the-sign-rank-of-a-matrix",
+      "source_id": "178",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://cstheory.stackexchange.com/questions/178/approximating-the-sign-rank-of-a-matrix",
+      "sign rank / dimension complexity in communication complexity",
+      "exact sign rank decision is ∃ℝ-complete (Basri et al.; Bhangale–Kopparty 2015)"
+    ]
+  },
+  {
+    "id": "se-cstheory-10983",
+    "slug": "optimal-algorithm-for-finding-the-girth-of-a-sparse-graph",
+    "title": "Optimal algorithm for the girth of a sparse graph",
+    "spec_version": 1,
+    "statement": "Is there an algorithm computing the girth (shortest cycle length) of a sparse graph substantially faster than the best known bounds — ideally near-linear time, or a fine-grained lower bound explaining the barrier? The exact optimal running time is open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "method",
+        "description": "a faster girth algorithm or a matching (fine-grained) lower bound"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted algorithm meeting a matching lower bound"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "method",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "cstheory.SE",
+      "url": "https://cstheory.stackexchange.com/questions/10983/optimal-algorithm-for-finding-the-girth-of-a-sparse-graph",
+      "source_id": "10983",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://cstheory.stackexchange.com/questions/10983/optimal-algorithm-for-finding-the-girth-of-a-sparse-graph",
+      "girth vs. APSP / triangle-detection fine-grained barriers",
+      "Itai–Rodeh; Vassilevska Williams–Williams reductions"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-47419",
+    "slug": "difficult-examples-for-frankl-s-union-closed-conjecture",
+    "title": "Frankl's union-closed sets conjecture",
+    "spec_version": 1,
+    "statement": "In every finite union-closed family of sets (closed under pairwise unions, not just {∅}), some element belongs to at least half of the sets. Open in general; an information-theoretic argument gives a constant of ≈ 0.38 rather than 1/2.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof of the ≥ n/2 frequency bound (or a counterexample family)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of the half-frequency bound"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit a union-closed family with every element in < half the sets"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/47419/difficult-examples-for-frankls-union-closed-conjecture",
+      "source_id": "47419",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/47419/difficult-examples-for-frankls-union-closed-conjecture",
+      "Frankl 1979",
+      "PARTIAL: Gilmer 2022 (arXiv:2211.09055) proved a constant ≥ 0.01, sharpened to (3−√5)/2 ≈ 0.38 by Sawin, Chase–Lovett, Alweiss–Huang–Sellke"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-114646",
+    "slug": "intersecting-family-of-triangulations",
+    "title": "Intersecting families of triangulations (EKR-type)",
+    "spec_version": 1,
+    "statement": "Among the triangulations of a convex n-gon, call two \"intersecting\" if they share a common diagonal. Conjecturally the largest pairwise-intersecting family has the size of a maximal \"star\" — all triangulations through one fixed diagonal — an Erdős–Ko–Rado phenomenon for the associahedron.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof that a maximum intersecting family of triangulations is a star (or a larger family)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of the star-maximality bound"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/114646/intersecting-family-of-triangulations",
+      "source_id": "114646",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/114646/intersecting-family-of-triangulations",
+      "Olarte–Santos et al. / an EKR-analogue on the associahedron",
+      "intersecting-family extremal question"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-96782",
+    "slug": "vector-balancing-problem",
+    "title": "Komlós vector-balancing conjecture",
+    "spec_version": 1,
+    "statement": "There is an absolute constant K such that for any vectors v₁,…,vₙ ∈ ℝⁿ with ‖vᵢ‖₂ ≤ 1 one can choose signs εᵢ ∈ {±1} with ‖Σ εᵢ vᵢ‖_∞ ≤ K, independent of n. The best known bound (Banaszczyk) is O(√(log n)); a universal constant is open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "design",
+        "description": "a sign choice achieving an O(1) discrepancy bound (or a proof that none can)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of the constant-K bound"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit vectors forcing unbounded signed ℓ∞ discrepancy"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/96782/vector-balancing-problem",
+      "source_id": "96782",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/96782/vector-balancing-problem",
+      "Komlós conjecture; implies the Beck–Fiala conjecture",
+      "PARTIAL: Banaszczyk 1998 gives O(√log n)"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-26821",
+    "slug": "is-thompson-s-group-f-amenable",
+    "title": "Amenability of Thompson's group F",
+    "spec_version": 1,
+    "statement": "Is Richard Thompson's group F amenable? F is a finitely presented group of piecewise-linear homeomorphisms of [0,1]; whether it admits an invariant mean has resisted repeated proof attempts in both directions.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof that F is amenable, or a proof that it is not"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof settling amenability of F"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/26821/is-thompsons-group-f-amenable",
+      "source_id": "26821",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/26821/is-thompsons-group-f-amenable",
+      "Thompson 1965; Cannon–Floyd–Parry survey",
+      "many announced proofs (both ways) later withdrawn"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-1973",
+    "slug": "is-there-a-complex-structure-on-the-6-sphere",
+    "title": "Complex structure on the 6-sphere",
+    "spec_version": 1,
+    "statement": "Does S⁶ admit an integrable almost-complex (i.e. a genuine complex) structure? S⁶ carries an almost-complex structure from the octonions, but whether an integrable one exists — making S⁶ a complex manifold — is a long-standing open problem.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a construction of an integrable complex structure on S⁶, or a proof of non-existence"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof (construction or obstruction)"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/1973/is-there-a-complex-structure-on-the-6-sphere",
+      "source_id": "1973",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/1973/is-there-a-complex-structure-on-the-6-sphere",
+      "classical (Hopf, Borel–Serre)",
+      "several announced proofs (incl. Atiyah, Chern) not accepted"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-3332",
+    "slug": "two-commuting-mappings-in-the-disk",
+    "title": "Common fixed point of two commuting maps of the disk",
+    "spec_version": 1,
+    "statement": "Do every two commuting continuous maps of the closed 2-disk into itself have a common fixed point? Each has a fixed point by Brouwer; whether commuting pairs always share one is open (the analogous statement fails for the interval only in higher-pathology settings).",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof of a common fixed point (or a commuting pair with none)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of a common fixed point"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit commuting continuous self-maps of the disk with no common fixed point"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/3332/two-commuting-mappings-in-the-disk",
+      "source_id": "3332",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/3332/two-commuting-mappings-in-the-disk",
+      "Boyce & Huneke 1969 disproved the interval version",
+      "the disk version remains open"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-21003",
+    "slug": "polynomial-bijection-from-mathbb-q-times-mathbb-q-to-mathbb-",
+    "title": "Polynomial bijection ℚ×ℚ → ℚ",
+    "spec_version": 1,
+    "statement": "Is there a polynomial f ∈ ℚ[x,y] that is a bijection from ℚ×ℚ onto ℚ? Such \"pairing polynomials\" exist over ℕ (Cantor), but whether one exists over the rationals is open; a conditional non-existence follows from a case of the Bombieri–Lang conjecture.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "artifact",
+        "description": "a rational polynomial bijection ℚ² → ℚ, or a proof none exists"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "exhibit and verify a polynomial bijection"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "an accepted non-existence proof"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/21003/polynomial-bijection-from-mathbb-q-times-mathbb-q-to-mathbb-q",
+      "source_id": "21003",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/21003/polynomial-bijection-from-mathbb-q-times-mathbb-q-to-mathbb-q",
+      "conditional non-existence under Bombieri–Lang (Poonen)",
+      "unconditionally open"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-17560",
+    "slug": "if-2-x-and-3-x-are-integers-must-x-be-as-well",
+    "title": "If 2^x and 3^x are integers, is x?",
+    "spec_version": 1,
+    "statement": "If both 2^x and 3^x are integers for a real x, must x itself be an integer? A special case of the four-exponentials conjecture; open despite its elementary statement.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof that x must be an integer (or a real counterexample)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of the integrality of x"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/17560/if-2x-and-3x-are-integers-must-x-be-as-well",
+      "source_id": "17560",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/17560/if-2x-and-3x-are-integers-must-x-be-as-well",
+      "special case of the four-exponentials conjecture",
+      "transcendence theory (Waldschmidt)"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-22",
+    "slug": "can-n-2-have-only-digits-0-and-1-other-than-n-10-k",
+    "title": "A square with only digits 0 and 1",
+    "spec_version": 1,
+    "statement": "Is there an integer N, other than a power of 10, whose square N² is written in base 10 using only the digits 0 and 1? No such N is known below very large search bounds, and its existence or impossibility is open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "value",
+        "description": "such an N, or a proof that only powers of 10 qualify"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof that no non-10^k square has only 0/1 digits"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit N ≠ 10^k with N² using only digits 0 and 1"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/22/can-n2-have-only-digits-0-and-1-other-than-n-10k",
+      "source_id": "22",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/22/can-n2-have-only-digits-0-and-1-other-than-n-10k",
+      "searched past 10^24 with no example (besides 10^k)"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-29000",
+    "slug": "volumes-of-sets-of-constant-width-in-high-dimensions",
+    "title": "Volumes of constant-width bodies in high dimensions",
+    "spec_version": 1,
+    "statement": "Do the minimal-volume convex bodies of constant width 1 in ℝⁿ have volume exponentially smaller than the unit-width ball? Schramm proved a lower bound of (√3 − 1)ⁿ times the ball; whether the true minimum is exponentially small (as conjectured) is open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "the asymptotic minimal volume of constant-width bodies (matching bounds)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "matching asymptotic bounds pinning the minimal volume"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "measurement",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/29000/volumes-of-sets-of-constant-width-in-high-dimensions",
+      "source_id": "29000",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/29000/volumes-of-sets-of-constant-width-in-high-dimensions",
+      "Schramm 1988 lower bound",
+      "Kalai–Oliveros–Bezdek surveys; recent progress bounding the ratio < 1 (2024)"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-34145",
+    "slug": "can-we-cover-the-unit-square-by-these-rectangles",
+    "title": "Covering the unit square by 1/k × 1/(k+1) rectangles",
+    "spec_version": 1,
+    "statement": "The rectangles of size 1/k × 1/(k+1) for k = 1,2,3,… have areas summing to exactly 1. Can they be packed without overlap to tile (cover) the unit square exactly? Existence of such a perfect packing is open (the Meir–Moser problem).",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "design",
+        "description": "a perfect packing of the 1/k×1/(k+1) rectangles into the unit square, or a proof none exists"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "exhibit a valid non-overlapping perfect packing"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "an accepted impossibility proof"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/34145/can-we-cover-the-unit-square-by-these-rectangles",
+      "source_id": "34145",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/34145/can-we-cover-the-unit-square-by-these-rectangles",
+      "Meir–Moser 1968",
+      "known: they pack into a square of area 1 + ε for every ε > 0 (Paulhus 1998)"
+    ]
+  },
+  {
+    "id": "se-mathoverflow-52552",
+    "slug": "nontrivial-finite-group-with-trivial-group-homologies",
+    "title": "Nontrivial acyclic finite group",
+    "spec_version": 1,
+    "statement": "Is there a nontrivial finite group whose reduced integral group homology vanishes in all positive degrees (an acyclic finite group)? Superperfect finite groups exist (e.g. binary icosahedral), but full acyclicity of a nontrivial finite group is not known to occur or to be impossible.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "such a group, or a proof that none exists"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted example or a non-existence proof"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "MathOverflow",
+      "url": "https://mathoverflow.net/questions/52552/nontrivial-finite-group-with-trivial-group-homologies",
+      "source_id": "52552",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the source; body text not copied (CC BY-SA). The backlink is the attribution."
+    },
+    "refs": [
+      "https://mathoverflow.net/questions/52552/nontrivial-finite-group-with-trivial-group-homologies",
+      "group homology / acyclic groups",
+      "related to superperfect groups and the Schur multiplier"
+    ]
+  }
+]

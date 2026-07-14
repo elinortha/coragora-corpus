@@ -6,6 +6,7 @@
 
   { "kind": "REDUCES_TO", "from": "szemeredi-theorem", "to": "furstenberg-recurrence", "status": "accepted", "map": "Furstenberg correspondence principle", "note": "documented" },
   { "kind": "REDUCES_TO", "from": "furstenberg-recurrence", "to": "szemeredi-theorem", "status": "accepted", "map": "correspondence principle (reverse)", "note": "documented — mutual ⇒ equivalence" },
+  { "kind": "REDUCES_TO", "from": "green-tao", "to": "szemeredi-theorem", "status": "accepted", "map": "Green–Tao transference principle: APs in the primes reduce to Szemerédi applied to a pseudorandom majorant", "note": "documented (Green–Tao 2008, session-3 Tier-C pass) — a real transfer map, distinct from erdos-ap GENERALIZES green-tao" },
 
   { "kind": "INVOLVES", "from": "szemeredi-theorem", "to": "M-regularity-transference", "status": "accepted", "note": "documented" },
   { "kind": "INVOLVES", "from": "green-tao", "to": "M-regularity-transference", "status": "accepted", "note": "documented" },

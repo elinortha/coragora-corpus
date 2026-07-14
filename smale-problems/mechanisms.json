@@ -1,0 +1,17 @@
+[
+  {
+    "id": "M-reductions-completeness",
+    "name": "complexity classification via reductions & completeness",
+    "signature": "the task is to place a computational problem in a complexity class, the tool being reductions / completeness under that class"
+  },
+  {
+    "id": "M-smooth-dynamics",
+    "name": "qualitative theory of smooth dynamical systems",
+    "signature": "the long-term or global structure of the solutions of a smooth flow/map (attractors, limit cycles, relative equilibria) is the unknown"
+  },
+  {
+    "id": "M-bss-real-computation",
+    "name": "complexity of real/numerical computation (Blum–Shub–Smale)",
+    "signature": "the cost of a numerical algorithm over ℝ/ℂ, measured in arithmetic operations and conditioning rather than bit-size"
+  }
+]

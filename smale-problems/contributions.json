@@ -1,0 +1,140 @@
+[
+  {
+    "id": "contrib-poincare-perelman",
+    "kind": "contribution",
+    "subject": "smale-2",
+    "body": {
+      "outcome": "full",
+      "grade": "resolution",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "Every simply connected closed 3-manifold is S³ — proved via Ricci flow with surgery (and the full geometrization conjecture).",
+      "refs": [
+        "Perelman 2002–2003",
+        "independently verified: Kleiner–Lott; Morgan–Tian; Cao–Zhu"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:perelman-2003",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-13",
+    "space": "public"
+  },
+  {
+    "id": "contrib-lorenz-tucker",
+    "kind": "contribution",
+    "subject": "smale-14",
+    "body": {
+      "outcome": "full",
+      "grade": "resolution",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "The classical Lorenz equations support a robust singular-hyperbolic strange attractor — a rigorous computer-assisted proof.",
+      "refs": [
+        "Tucker 2002 (A Rigorous ODE Solver and Smale’s 14th Problem)"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:tucker-2002",
+      "method": "computation"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-13",
+    "space": "public"
+  },
+  {
+    "id": "contrib-smale17-lairez",
+    "kind": "contribution",
+    "subject": "smale-17",
+    "body": {
+      "outcome": "full",
+      "grade": "resolution",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "Complex polynomial systems can be solved approximately in average polynomial time — randomized (Beltrán–Pardo), then deterministic (Lairez).",
+      "refs": [
+        "Beltrán–Pardo 2008/2011 (randomized)",
+        "Lairez 2017 (deterministic average poly-time)"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:lairez-2017",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-13",
+    "space": "public"
+  },
+  {
+    "id": "contrib-smale1-conrey",
+    "kind": "contribution",
+    "subject": "smale-1",
+    "body": {
+      "outcome": "partial",
+      "grade": "bound",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "More than 2/5 of the nontrivial zeros of ζ lie on the critical line — a positive-proportion result short of \"all\".",
+      "refs": [
+        "Levinson 1974 (>1/3)",
+        "Conrey 1989 (>2/5)",
+        "numerical: first ~10¹³ zeros verified on the line"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:conrey-1989",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-13",
+    "space": "public"
+  },
+  {
+    "id": "contrib-smale6-albouy-kaloshin",
+    "kind": "contribution",
+    "subject": "smale-6",
+    "body": {
+      "outcome": "partial",
+      "grade": "special-case",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "The number of central configurations is finite for n ≤ 5 masses (for n = 5, outside a measure-zero set of masses) — general n open.",
+      "refs": [
+        "Hampton–Moeckel 2006 (n = 4)",
+        "Albouy–Kaloshin 2012 (n = 5, generic masses)"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:albouy-kaloshin-2012",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-13",
+    "space": "public"
+  },
+  {
+    "id": "contrib-smale13-ecalle-ilyashenko",
+    "kind": "contribution",
+    "subject": "smale-13",
+    "body": {
+      "outcome": "partial",
+      "grade": "special-case",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "Each individual planar polynomial vector field has finitely many limit cycles (Écalle; Ilyashenko) — but no uniform bound H(n) by degree is known.",
+      "refs": [
+        "Écalle 1992",
+        "Ilyashenko 1991"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:ilyashenko-1991",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-13",
+    "space": "public"
+  }
+]

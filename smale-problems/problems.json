@@ -1,0 +1,502 @@
+[
+  {
+    "id": "smale-1",
+    "slug": "smale-1-riemann-hypothesis-smale-s-1st",
+    "title": "Riemann hypothesis",
+    "spec_version": 1,
+    "statement": "Do all nontrivial zeros of the Riemann zeta function ζ(s) lie on the critical line Re(s) = 1/2? Equivalent to the sharpest possible error term in the prime-counting function. (Smale poses it, with the generalized RH, as his first problem; also a Clay Millennium Problem.)",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof that every nontrivial zero has real part 1/2 (or a zero off the line)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of the critical-line statement"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit a nontrivial zero with Re(s) ≠ 1/2"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-1",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Riemann 1859",
+      "Clay Millennium Problem",
+      "partial: >2/5 of zeros on the line (Conrey 1989); first ~10¹³ zeros verified numerically"
+    ]
+  },
+  {
+    "id": "smale-2",
+    "slug": "smale-2-poincaré-conjecture",
+    "title": "Poincaré conjecture",
+    "spec_version": 1,
+    "statement": "Every simply connected closed 3-manifold is homeomorphic to the 3-sphere S³. RESOLVED: Grigori Perelman (2002–2003) proved it (and geometrization) via Ricci flow with surgery.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof that a simply connected closed 3-manifold is S³"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of the 3-dimensional Poincaré statement"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "closed",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-2",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Poincaré 1904",
+      "Perelman 2002–2003",
+      "verified by Kleiner–Lott, Morgan–Tian, Cao–Zhu"
+    ],
+    "closure": {
+      "kind": "resolved",
+      "mode": "m-pos",
+      "artifact": "Perelman 2002–2003 (Ricci flow with surgery)"
+    }
+  },
+  {
+    "id": "smale-3",
+    "slug": "smale-3-p-versus-np",
+    "title": "P versus NP",
+    "spec_version": 1,
+    "statement": "Is P = NP — can every problem whose solution is verifiable in polynomial time also be solved in polynomial time? The central open problem of computational complexity (also a Clay Millennium Problem).",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof that P = NP (an algorithm) or that P ≠ NP (a separation)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted polynomial-time algorithm for an NP-complete problem"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "an accepted proof of a super-polynomial lower bound (P ≠ NP)"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-3",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Cook 1971; Levin 1973",
+      "Clay Millennium Problem"
+    ]
+  },
+  {
+    "id": "smale-6",
+    "slug": "smale-6-finiteness-of-central-configurations-n-body",
+    "title": "Finiteness of central configurations in the n-body problem",
+    "spec_version": 1,
+    "statement": "For n point masses, is the number of central configurations (relative equilibria, counted up to rotation and scaling) finite for every choice of positive masses? Open in general; known finite for n ≤ 4 (Hampton–Moeckel) and n = 5 outside a measure-zero mass set (Albouy–Kaloshin).",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof of finiteness for all n and all positive masses (or an infinite family)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted finiteness proof for general n"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit masses with infinitely many central configurations"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-6",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Wintner 1941; Smale 1998",
+      "Hampton–Moeckel 2006 (n=4)",
+      "Albouy–Kaloshin 2012 (n=5, generic masses)"
+    ]
+  },
+  {
+    "id": "smale-7",
+    "slug": "smale-7-distribution-of-points-on-the-2-sphere",
+    "title": "Distribution of points on the 2-sphere",
+    "spec_version": 1,
+    "statement": "For each N, distribute N points on the unit 2-sphere to nearly minimize the logarithmic energy −Σ log‖xᵢ−xⱼ‖. Is there a real-number algorithm, polynomial in N, producing a configuration whose energy is within an additive constant·log N of the minimum? (An extremal point-configuration / algorithmic geometry question.)",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "method",
+        "description": "a polynomial-time algorithm producing near-minimal-energy point sets on S²"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted algorithm meeting the additive-approximation target"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "method",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-7",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Smale 1998; Shub–Smale",
+      "related to elliptic Fekete points and Thomson-type energy minimization"
+    ]
+  },
+  {
+    "id": "smale-9",
+    "slug": "smale-9-linear-programming-in-strongly-polynomial-time",
+    "title": "Linear programming in strongly polynomial time",
+    "spec_version": 1,
+    "statement": "Is there a strongly polynomial algorithm for linear programming — deciding feasibility / optimality with a number of arithmetic operations polynomial in the number of variables and constraints only, independent of the bit-size of the data? Weakly polynomial algorithms exist (ellipsoid, interior-point); a strongly polynomial one is open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "method",
+        "description": "a strongly polynomial LP algorithm, or a proof none exists in the model"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted strongly polynomial algorithm for LP"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "method",
+    "status": "open",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-9",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Smale 1998",
+      "ellipsoid (Khachiyan 1979) and interior-point (Karmarkar 1984) are weakly polynomial",
+      "strongly polynomial for special cases (e.g. Tardós)"
+    ]
+  },
+  {
+    "id": "smale-13",
+    "slug": "smale-13-hilbert-s-16th-problem-limit-cycles",
+    "title": "Hilbert's 16th problem (second part): limit cycles",
+    "spec_version": 1,
+    "statement": "Is there a uniform bound H(n), depending only on the degree n, on the number of limit cycles of a planar polynomial vector field of degree n? Open even for n = 2. (Individual fields have finitely many limit cycles — Écalle, Ilyashenko — but no uniform bound is known.)",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "value",
+        "description": "a uniform finite bound H(n) on limit cycles by degree (or a proof none exists)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted uniform bound H(n) on the number of limit cycles"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-13",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Hilbert 1900 (16th, part 2); Smale 1998",
+      "individual finiteness: Écalle 1992; Ilyashenko 1991"
+    ]
+  },
+  {
+    "id": "smale-14",
+    "slug": "smale-14-the-lorenz-attractor",
+    "title": "The Lorenz attractor is a strange attractor",
+    "spec_version": 1,
+    "statement": "Do the Lorenz equations, at the classical parameters, support a robust strange attractor (a singular-hyperbolic attractor with sensitive dependence)? RESOLVED: Warwick Tucker (2002) gave a rigorous computer-assisted proof that they do.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a rigorous proof that the Lorenz system has a robust strange attractor"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof characterizing the Lorenz attractor"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "closed",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-14",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Lorenz 1963; Smale 1998",
+      "Tucker 2002 (rigorous computer-assisted proof)"
+    ],
+    "closure": {
+      "kind": "resolved",
+      "mode": "m-pos",
+      "artifact": "Tucker 2002 (computer-assisted proof)"
+    }
+  },
+  {
+    "id": "smale-15",
+    "slug": "smale-15-navier-stokes-existence-and-smoothness",
+    "title": "Navier–Stokes existence and smoothness",
+    "spec_version": 1,
+    "statement": "For the 3-D incompressible Navier–Stokes equations with smooth, finite-energy initial data, do smooth solutions exist for all time (existence and regularity)? Or can solutions form singularities in finite time? Open (also a Clay Millennium Problem).",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof of global smooth existence, or a finite-time blow-up example"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted global existence-and-smoothness proof"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit smooth data whose solution blows up in finite time"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-15",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Leray 1934; Smale 1998",
+      "Clay Millennium Problem"
+    ]
+  },
+  {
+    "id": "smale-17",
+    "slug": "smale-17-solving-polynomial-equations-in-polynomial-time",
+    "title": "Solving polynomial equations in polynomial time",
+    "spec_version": 1,
+    "statement": "Can a system of n complex polynomial equations in n unknowns be solved approximately, on average, in polynomial time by a uniform algorithm (in the Blum–Shub–Smale real-computation model)? RESOLVED: Beltrán–Pardo (randomized) and Lairez (2017, deterministic) gave average-case polynomial-time algorithms.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "method",
+        "description": "a uniform average-case polynomial-time solver for complex polynomial systems"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted average-case polynomial-time algorithm"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "method",
+    "status": "closed",
+    "domain": "computer-science",
+    "provenance": {
+      "source": "Smale (2000), Mathematical Problems for the Next Century",
+      "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "source_id": "smale-17",
+      "retrieved": "2026-07-13",
+      "status": "asserted",
+      "license": "CC-BY-4.0",
+      "note": "Structured facts paraphrased from the historical problem list; the backlink is the attribution."
+    },
+    "refs": [
+      "https://en.wikipedia.org/wiki/Smale%27s_problems",
+      "Smale 1998; Shub–Smale",
+      "Beltrán–Pardo 2008/2011 (randomized)",
+      "Lairez 2017 (deterministic average poly-time)"
+    ],
+    "closure": {
+      "kind": "resolved",
+      "mode": "m-pos",
+      "artifact": "Beltrán–Pardo 2011; Lairez 2017"
+    }
+  }
+]

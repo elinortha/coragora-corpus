@@ -1,0 +1,47 @@
+[
+  {
+    "id": "contrib-frankl-gilmer-2022",
+    "kind": "contribution",
+    "subject": "se-mathoverflow-47419",
+    "body": {
+      "outcome": "partial",
+      "grade": "bound",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "Some element lies in ≥ 0.38 of the sets of any finite union-closed family — an information-theoretic bound short of the conjectured 1/2.",
+      "refs": [
+        "Gilmer 2022 (arXiv:2211.09055) — constant ≥ 0.01",
+        "sharpened to (3−√5)/2 ≈ 0.38 by Sawin; Chase–Lovett; Alweiss–Huang–Sellke (2022)"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:arxiv-2211.09055",
+      "method": "peer-assertion"
+    },
+    "status": "corroborated",
+    "asserted_at": "2026-07-13",
+    "space": "public"
+  },
+  {
+    "id": "contrib-komlos-banaszczyk-1998",
+    "kind": "contribution",
+    "subject": "se-mathoverflow-96782",
+    "body": {
+      "outcome": "partial",
+      "grade": "bound",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "Signs achieving ‖Σ εᵢvᵢ‖_∞ = O(√(log n)) always exist — the best known bound, short of the conjectured O(1) constant K.",
+      "refs": [
+        "Banaszczyk 1998 — an O(√log n) discrepancy bound via a convex-geometry argument"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:banaszczyk-1998",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-13",
+    "space": "public"
+  }
+]

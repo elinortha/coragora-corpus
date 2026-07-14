@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "INVOLVES",
+    "from": "smale-1",
+    "to": "M-multiplicative",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "smale-3",
+    "to": "M-reductions-completeness",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "smale-6",
+    "to": "M-smooth-dynamics",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "smale-7",
+    "to": "M-incidence-geometry",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "smale-9",
+    "to": "M-bss-real-computation",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "smale-13",
+    "to": "M-smooth-dynamics",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "smale-14",
+    "to": "M-smooth-dynamics",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "smale-17",
+    "to": "M-bss-real-computation",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "se-cstheory-178",
+    "to": "M-reductions-completeness",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "se-cstheory-2429",
+    "to": "M-reductions-completeness",
+    "status": "accepted"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "se-cstheory-10983",
+    "to": "M-reductions-completeness",
+    "status": "accepted"
+  }
+]

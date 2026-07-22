@@ -1,0 +1,139 @@
+[
+  {
+    "id": "contrib-chowla-tao-2016",
+    "kind": "contribution",
+    "subject": "chowla-conjecture",
+    "body": {
+      "outcome": "partial",
+      "grade": "special-case",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "The two-point case holds in logarithmically averaged form: Σ_{n≤x} λ(n)λ(n+h)/n = o(log x) for every fixed h ≠ 0 — short of the unaveraged statement, and of k ≥ 3.",
+      "refs": [
+        "T. Tao, The logarithmically averaged Chowla and Elliott conjectures for two-point correlations, Forum Math. Pi 4 (2016), arXiv:1509.05422"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:arxiv-1509.05422",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-22",
+    "space": "public"
+  },
+  {
+    "id": "contrib-chowla-tao-teravainen-2018",
+    "kind": "contribution",
+    "subject": "chowla-conjecture",
+    "body": {
+      "outcome": "partial",
+      "grade": "special-case",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "All ODD-order correlations vanish in logarithmically averaged form; the logarithmically averaged even orders k ≥ 4, and every unaveraged order, remain open.",
+      "refs": [
+        "T. Tao, J. Teräväinen, Odd order cases of the logarithmically averaged Chowla conjecture, J. Théor. Nombres Bordeaux 30(3) (2018)"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:tao-teravainen-2018",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-22",
+    "space": "public"
+  },
+  {
+    "id": "contrib-beck-fiala-bukh-2016",
+    "kind": "contribution",
+    "subject": "beck-fiala-conjecture",
+    "body": {
+      "outcome": "partial",
+      "grade": "bound",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "The best dimension-free bound is 2t − log*t (Bukh 2016), a lower-order improvement on the original 2t−1 — still linear in t, not the conjectured O(√t).",
+      "refs": [
+        "J. Beck, T. Fiala, \"Integer-making\" theorems, Discrete Appl. Math. 3 (1981) — discrepancy ≤ 2t−1",
+        "B. Bukh, An improvement of the Beck–Fiala theorem, Combin. Probab. Comput. (2016), arXiv:1306.6081"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:arxiv-1306.6081",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-22",
+    "space": "public"
+  },
+  {
+    "id": "contrib-beck-fiala-banaszczyk-1998",
+    "kind": "contribution",
+    "subject": "beck-fiala-conjecture",
+    "body": {
+      "outcome": "partial",
+      "grade": "bound",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "Allowing a dependence on the ground-set size n gives O(√(t log n)) (Banaszczyk 1998) — √t-shaped in t, but not the dimension-free bound the conjecture asks for.",
+      "refs": [
+        "W. Banaszczyk, Balancing vectors and Gaussian measures of n-dimensional convex bodies, Random Structures Algorithms 12 (1998)",
+        "An Improved Bound for the Beck-Fiala Conjecture, arXiv:2508.01937 (2025) — O(√(t log log n)) once t ≥ log⁵n"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:banaszczyk-1998",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-22",
+    "space": "public"
+  },
+  {
+    "id": "contrib-four-exponentials-six-exp-theorem",
+    "kind": "contribution",
+    "subject": "four-exponentials-conjecture",
+    "body": {
+      "outcome": "partial",
+      "grade": "special-case",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "Given a THIRD ℚ-independent y₃, the conclusion is a theorem: one of the six numbers e^{xᵢyⱼ} is transcendental (six exponentials theorem). The 2×2 case is exactly where that proof fails.",
+      "refs": [
+        "S. Lang, Introduction to Transcendental Numbers (1966)",
+        "K. Ramachandra, Contributions to the theory of transcendental numbers (1968)",
+        "https://en.wikipedia.org/wiki/Six_exponentials_theorem"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:six-exponentials-theorem",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-22",
+    "space": "public"
+  },
+  {
+    "id": "contrib-mo17560-six-exponentials",
+    "kind": "contribution",
+    "subject": "se-mathoverflow-17560",
+    "body": {
+      "outcome": "partial",
+      "grade": "special-case",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "With a third prime the answer is known unconditionally: if 2^x, 3^x and 5^x are all integers then x is an integer — the six exponentials theorem applied at (y₁,y₂,y₃) = (log 2, log 3, log 5).",
+      "refs": [
+        "https://en.wikipedia.org/wiki/Six_exponentials_theorem",
+        "M. Waldschmidt, Diophantine Approximation on Linear Algebraic Groups (2000)"
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:six-exponentials-theorem",
+      "method": "peer-assertion"
+    },
+    "status": "verified",
+    "asserted_at": "2026-07-22",
+    "space": "public"
+  }
+]

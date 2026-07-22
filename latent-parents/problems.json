@@ -1,0 +1,141 @@
+[
+  {
+    "id": "chowla-conjecture",
+    "slug": "chowla-conjecture",
+    "title": "Chowla's conjecture on correlations of the Liouville function",
+    "spec_version": 1,
+    "statement": "For the Liouville function λ(n) = (−1)^Ω(n), every non-trivial correlation vanishes: for distinct non-negative integers h₁,…,h_k and exponents a₁,…,a_k ∈ {1,2} not all even, (1/x)·Σ_{n≤x} λ(n+h₁)^{a₁}⋯λ(n+h_k)^{a_k} → 0 as x → ∞. Equivalently, λ is a normal ±1 sequence — it exhibits no correlation at any finite scale. Chowla implies Sarnak's Möbius disjointness conjecture (Möbius disjointness of every zero-entropy, i.e. deterministic, topological dynamical system); in logarithmically averaged form the two are equivalent (Tao–Teräväinen). Proved so far only in averaged form: the logarithmically averaged two-point case (Tao 2016) and all logarithmically averaged odd-order cases (Tao–Teräväinen 2018). Every unaveraged case with k ≥ 2, and the logarithmically averaged even orders k ≥ 4, are open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof that every non-trivial k-point correlation of λ vanishes (or shifts whose correlation does not)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof that every non-trivial k-point correlation of λ tends to 0, unaveraged, for all k"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit shifts h₁,…,h_k and exponents whose correlation does not tend to 0"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "refs": [
+      "S. Chowla, The Riemann Hypothesis and Hilbert's Tenth Problem (1965) — the conjecture as usually stated",
+      "P. Sarnak, Three lectures on the Möbius function, randomness and dynamics (2011) — Chowla ⇒ Möbius disjointness for zero-entropy systems",
+      "T. Tao, The logarithmically averaged Chowla and Elliott conjectures for two-point correlations, Forum Math. Pi 4 (2016), arXiv:1509.05422",
+      "T. Tao, R. Teräväinen, Odd order cases of the logarithmically averaged Chowla conjecture, J. Théor. Nombres Bordeaux 30(3) (2018)",
+      "T. Tao, Equivalence of the logarithmically averaged Chowla and Sarnak conjectures, arXiv:1605.04628"
+    ]
+  },
+  {
+    "id": "beck-fiala-conjecture",
+    "slug": "beck-fiala-conjecture",
+    "title": "Beck–Fiala conjecture",
+    "spec_version": 1,
+    "statement": "Is there an absolute constant C such that every finite set system in which each element lies in at most t of the sets has combinatorial discrepancy at most C·√t? Equivalently: for every hypergraph of maximum degree t there is a ±1 colouring of the ground set leaving every edge with imbalance O(√t), with no dependence on the number of elements or sets. The Beck–Fiala theorem (1981) gives the dimension-free bound 2t−1, improved to 2t − log*t by Bukh (2016); Banaszczyk's convex-geometry argument gives O(√(t log n)) at the cost of a dependence on the number n of elements, sharpened in 2025 to O(√(t log log n)) in the regime t ≥ log⁵n. The conjectured dimension-free O(√t) is open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "design",
+        "description": "a ±1 colouring achieving O(√t) discrepancy for every degree-t set system (or a family of set systems forcing more)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof of an O(√t) discrepancy bound independent of the size of the ground set"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit degree-t set systems whose discrepancy is ω(√t)"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "refs": [
+      "J. Beck, T. Fiala, \"Integer-making\" theorems, Discrete Appl. Math. 3 (1981) — discrepancy ≤ 2t−1",
+      "B. Bukh, An improvement of the Beck–Fiala theorem, Combin. Probab. Comput. (2016), arXiv:1306.6081 — 2t − log*t",
+      "W. Banaszczyk, Balancing vectors and Gaussian measures of n-dimensional convex bodies (1998) — O(√(t log n))",
+      "An Improved Bound for the Beck-Fiala Conjecture, arXiv:2508.01937 (2025) — O(√(t log log n)) for t ≥ log⁵n"
+    ]
+  },
+  {
+    "id": "four-exponentials-conjecture",
+    "slug": "four-exponentials-conjecture",
+    "title": "Four exponentials conjecture",
+    "spec_version": 1,
+    "statement": "If x₁, x₂ are complex numbers linearly independent over ℚ and y₁, y₂ are complex numbers linearly independent over ℚ, then at least one of the four numbers e^{x₁y₁}, e^{x₁y₂}, e^{x₂y₁}, e^{x₂y₂} is transcendental. The corresponding statement with a third ℚ-independent y — the six exponentials theorem (Siegel, Schneider, Lang, Ramachandra) — is a theorem; Lang observed that its proof \"just misses\" the 2×2 case, and closing that gap has been open since. The sharp and strong four-exponentials variants (Waldschmidt) are likewise open.",
+    "unknowns": [
+      {
+        "id": "u1",
+        "kind": "proof",
+        "description": "a proof that one of the four exponentials is transcendental for every pair of ℚ-independent pairs (or a counterexample making all four algebraic)"
+      }
+    ],
+    "success_modes": [
+      {
+        "id": "m-pos",
+        "criteria": [
+          {
+            "id": "sc1",
+            "class": "FORMAL",
+            "test": "an accepted proof that for all ℚ-independent (x₁,x₂) and (y₁,y₂) some e^{xᵢyⱼ} is transcendental"
+          }
+        ]
+      },
+      {
+        "id": "m-neg",
+        "criteria": [
+          {
+            "id": "sc2",
+            "class": "FORMAL",
+            "test": "exhibit ℚ-independent (x₁,x₂) and (y₁,y₂) with all four e^{xᵢyⱼ} algebraic"
+          }
+        ]
+      }
+    ],
+    "assumptions": [],
+    "type": "conjecture",
+    "status": "open",
+    "domain": "mathematics",
+    "refs": [
+      "S. Lang, Introduction to Transcendental Numbers (1966) — the six exponentials theorem and the 2×2 gap",
+      "K. Ramachandra, Contributions to the theory of transcendental numbers (1968)",
+      "M. Waldschmidt, Diophantine Approximation on Linear Algebraic Groups (2000) — four exponentials, sharp and strong variants",
+      "https://en.wikipedia.org/wiki/Four_exponentials_conjecture"
+    ]
+  }
+]

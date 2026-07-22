@@ -1,0 +1,46 @@
+[
+  {
+    "kind": "REDUCES_TO",
+    "from": "beck-fiala-conjecture",
+    "to": "se-mathoverflow-96782",
+    "status": "accepted",
+    "map": "column normalisation by 1/√t: the incidence matrix of a set system of maximum degree t has columns vⱼ ∈ ℝ^m with ‖vⱼ‖₂ ≤ √t, so the vⱼ/√t are Komlós-admissible unit vectors; a Komlós signing with ‖Σ εⱼ vⱼ/√t‖_∞ ≤ K rescales to discrepancy ‖Σ εⱼ vⱼ‖_∞ ≤ K√t",
+    "note": "Komlós ⇒ Beck–Fiala, the textbook implication. DIRECTION VERIFIED: the map consumes a Komlós solution and returns a Beck–Fiala colouring (the same sign vector ε, after rescaling) — Sol(Komlós) → Sol(Beck–Fiala), so Beck–Fiala REDUCES_TO Komlós, not the converse. No converse is known: Beck–Fiala constrains only 0/1 columns of bounded support, and says nothing about general unit vectors. Session-4 latent-parent pass; the Tier-C candidate that motivated it was the M-probabilistic-method co-membership of Komlós."
+  },
+  {
+    "kind": "REDUCES_TO",
+    "from": "se-mathoverflow-17560",
+    "to": "four-exponentials-conjecture",
+    "status": "accepted",
+    "map": "instantiate the conjecture at (x₁,x₂) = (1, x) and (y₁,y₂) = (log 2, log 3): if x is irrational both pairs are ℚ-linearly independent (log2/log3 is irrational, else 2^a = 3^b), and the four exponentials e^{xᵢyⱼ} are exactly 2, 3, 2^x, 3^x — all algebraic if 2^x, 3^x ∈ ℤ, contradicting the conjecture; hence x ∈ ℚ, and writing x = p/q in lowest terms, 2^{p/q} ∈ ℤ forces 2^p = m^q, so m is a power of 2 and q = 1 by unique factorisation — i.e. x ∈ ℤ",
+    "note": "Four exponentials ⇒ (2^x, 3^x ∈ ℤ ⇒ x ∈ ℤ). DIRECTION VERIFIED: the map is a parameter instantiation plus an elementary rationality step, so it consumes a solution of the general conjecture and returns one of the MO node — Sol(four-exp) → Sol(17560). The converse fails: the MO node fixes (2,3) and integrality, while the conjecture ranges over all ℚ-independent complex pairs. The instantiation is the standard corollary (Waldschmidt; Wikipedia, Four exponentials conjecture). NOT modelled as GENERALIZES because the instantiation alone only rules out irrational x; the rational-to-integer step is extra."
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "chowla-conjecture",
+    "to": "M-multiplicative",
+    "status": "accepted",
+    "note": "the mechanism's signature IS this problem's machinery — a bounded ±1 multiplicative sequence, a correlation to control, an entropy-decrement / logarithmically-averaged Elliott step (Tao 2016)"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "beck-fiala-conjecture",
+    "to": "M-probabilistic-method",
+    "status": "accepted",
+    "note": "every advance past the deterministic 2t−1 floating-variable argument is probabilistic — Banaszczyk's Gaussian-measure bound, and the partial-colouring / random-walk algorithms (Lovett–Meka, Bansal–Dadush–Garg) that realise it"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "four-exponentials-conjecture",
+    "to": "M-transcendence-methods",
+    "status": "accepted",
+    "note": "the six-exponentials theorem — the proven 2×3 case — is exactly a Schneider–Lang auxiliary-function + zero-estimate argument; the 2×2 case is where that estimate 'just misses'"
+  },
+  {
+    "kind": "INVOLVES",
+    "from": "se-mathoverflow-17560",
+    "to": "M-transcendence-methods",
+    "status": "accepted",
+    "note": "the node's only unconditional progress (2^x, 3^x, 5^x ∈ ℤ ⇒ x ∈ ℤ) comes from the six-exponentials theorem — the same transcendence machinery, applied with a third logarithm"
+  }
+]

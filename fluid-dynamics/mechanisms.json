@@ -1,0 +1,17 @@
+[
+  {
+    "id": "M-fluid-regularity",
+    "name": "smooth fluid regularity and singularity formation",
+    "signature": "The question concerns continuation or finite-time breakdown of smooth incompressible fluid motion; sharing this topic does not imply a reduction."
+  },
+  {
+    "id": "M-smooth-residual-cancellation",
+    "name": "singular flow with smooth momentum residual",
+    "signature": "Construct a blowup flow while canceling singular terms so the external force remains smooth; NS paper Sections 2-3."
+  },
+  {
+    "id": "M-oscillatory-amplification",
+    "name": "iterative amplification of localized oscillations",
+    "signature": "Successive localized oscillations amplify gradients while controlling initial smoothness; Euler paper Section 2, with prior-work context in Section 1.1."
+  }
+]

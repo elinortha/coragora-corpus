@@ -1,0 +1,371 @@
+[
+  {
+    "id": "contrib-openai-ns-C",
+    "kind": "contribution",
+    "subject": "ns-forced-r3",
+    "body": {
+      "outcome": "full",
+      "grade": "resolution",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "OpenAI reports smooth-forced finite-time breakdown on R3 for every positive viscosity, starting from rest with uniformly bounded kinetic energy before blowup.",
+      "refs": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "https://github.com/openai/NavierStokesAndEuler",
+        "https://openai.com/index/navier-stokes-solution/",
+        "https://www.claymath.org/news/navier-stokes-announcement/"
+      ],
+      "evidence": [
+        {
+          "kind": "paper",
+          "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+          "locator": "Theorem 1.1, page 1"
+        },
+        {
+          "kind": "formalization",
+          "url": "https://github.com/openai/NavierStokesAndEuler",
+          "locator": "README: Navier Stokes"
+        },
+        {
+          "kind": "announcement",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "locator": "September 8, 2026 announcement"
+        },
+        {
+          "kind": "review",
+          "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+          "locator": "September 11, 2026: apparently settled; evaluation remains unhurried"
+        }
+      ],
+      "review": {
+        "formalization": "published",
+        "independentVerification": "not-recorded",
+        "theoremCorrespondence": "pending",
+        "prize": "not-awarded",
+        "checkedAt": "2026-09-26",
+        "note": "Source-level review only. No independent proof build or theorem-correspondence audit recorded by this graph; this does not assert that no outside reviewer has checked it. Prize recognition is separate from mathematical acceptance."
+      },
+      "attribution": [
+        {
+          "name": "OpenAI",
+          "role": "Published result; internal model and research team",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "name": "Diego Córdoba and Luis Martínez-Zoroa",
+          "role": "Prior mathematical foundations; not sole attribution for the new result",
+          "source": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "role": "Formalization and verification reported by OpenAI, distinct from proof-generating internal model",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        }
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:openai-2026-fluid-results",
+      "method": "peer-assertion",
+      "evidence": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "https://github.com/openai/NavierStokesAndEuler"
+      ]
+    },
+    "status": "corroborated",
+    "asserted_at": "2026-09-08",
+    "space": "public"
+  },
+  {
+    "id": "contrib-openai-ns-D",
+    "kind": "contribution",
+    "subject": "ns-forced-t3",
+    "body": {
+      "outcome": "full",
+      "grade": "resolution",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "OpenAI reports periodic smooth-forced breakdown satisfying Clay alternative D.",
+      "refs": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "https://github.com/openai/NavierStokesAndEuler",
+        "https://openai.com/index/navier-stokes-solution/",
+        "https://www.claymath.org/news/navier-stokes-announcement/"
+      ],
+      "evidence": [
+        {
+          "kind": "paper",
+          "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+          "locator": "Corollary 10.6 (also described after Theorem 1.1)"
+        },
+        {
+          "kind": "formalization",
+          "url": "https://github.com/openai/NavierStokesAndEuler",
+          "locator": "README: Navier Stokes"
+        },
+        {
+          "kind": "announcement",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "locator": "September 8, 2026 announcement"
+        },
+        {
+          "kind": "review",
+          "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+          "locator": "September 11, 2026: apparently settled; evaluation remains unhurried"
+        }
+      ],
+      "review": {
+        "formalization": "published",
+        "independentVerification": "not-recorded",
+        "theoremCorrespondence": "pending",
+        "prize": "not-awarded",
+        "checkedAt": "2026-09-26",
+        "note": "Source-level review only. No independent proof build or theorem-correspondence audit recorded by this graph; this does not assert that no outside reviewer has checked it. Prize recognition is separate from mathematical acceptance."
+      },
+      "attribution": [
+        {
+          "name": "OpenAI",
+          "role": "Published result; internal model and research team",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "name": "Diego Córdoba and Luis Martínez-Zoroa",
+          "role": "Prior mathematical foundations; not sole attribution for the new result",
+          "source": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "role": "Formalization and verification reported by OpenAI, distinct from proof-generating internal model",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        }
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:openai-2026-fluid-results",
+      "method": "peer-assertion",
+      "evidence": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "https://github.com/openai/NavierStokesAndEuler"
+      ]
+    },
+    "status": "corroborated",
+    "asserted_at": "2026-09-08",
+    "space": "public"
+  },
+  {
+    "id": "contrib-openai-clay-C",
+    "kind": "contribution",
+    "subject": "clay-navier-stokes",
+    "body": {
+      "outcome": "full",
+      "grade": "resolution",
+      "class": "FORMAL",
+      "mode": "C",
+      "claim": "OpenAI reports satisfying Clay alternative C; this resolves one permitted success mode, not unforced alternatives A/B.",
+      "refs": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "https://github.com/openai/NavierStokesAndEuler",
+        "https://openai.com/index/navier-stokes-solution/",
+        "https://www.claymath.org/news/navier-stokes-announcement/"
+      ],
+      "evidence": [
+        {
+          "kind": "paper",
+          "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+          "locator": "Theorem 1.1 and following paragraph, page 1"
+        },
+        {
+          "kind": "formalization",
+          "url": "https://github.com/openai/NavierStokesAndEuler",
+          "locator": "README: Navier Stokes"
+        },
+        {
+          "kind": "announcement",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "locator": "September 8, 2026 announcement"
+        },
+        {
+          "kind": "review",
+          "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+          "locator": "September 11, 2026: apparently settled; evaluation remains unhurried"
+        }
+      ],
+      "review": {
+        "formalization": "published",
+        "independentVerification": "not-recorded",
+        "theoremCorrespondence": "pending",
+        "prize": "not-awarded",
+        "checkedAt": "2026-09-26",
+        "note": "Source-level review only. No independent proof build or theorem-correspondence audit recorded by this graph; this does not assert that no outside reviewer has checked it. Prize recognition is separate from mathematical acceptance."
+      },
+      "attribution": [
+        {
+          "name": "OpenAI",
+          "role": "Published result; internal model and research team",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "name": "Diego Córdoba and Luis Martínez-Zoroa",
+          "role": "Prior mathematical foundations; not sole attribution for the new result",
+          "source": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "role": "Formalization and verification reported by OpenAI, distinct from proof-generating internal model",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        }
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:openai-2026-fluid-results",
+      "method": "peer-assertion",
+      "evidence": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "https://github.com/openai/NavierStokesAndEuler"
+      ]
+    },
+    "status": "corroborated",
+    "asserted_at": "2026-09-08",
+    "space": "public"
+  },
+  {
+    "id": "contrib-openai-clay-D",
+    "kind": "contribution",
+    "subject": "clay-navier-stokes",
+    "body": {
+      "outcome": "full",
+      "grade": "resolution",
+      "class": "FORMAL",
+      "mode": "D",
+      "claim": "OpenAI also reports satisfying Clay alternative D; C/D are alternative ways to meet the challenge, not proofs of A/B.",
+      "refs": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "https://github.com/openai/NavierStokesAndEuler",
+        "https://openai.com/index/navier-stokes-solution/",
+        "https://www.claymath.org/news/navier-stokes-announcement/"
+      ],
+      "evidence": [
+        {
+          "kind": "paper",
+          "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+          "locator": "Corollary 10.6 (announced on page 1)"
+        },
+        {
+          "kind": "formalization",
+          "url": "https://github.com/openai/NavierStokesAndEuler",
+          "locator": "README: Navier Stokes"
+        },
+        {
+          "kind": "announcement",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "locator": "September 8, 2026 announcement"
+        },
+        {
+          "kind": "review",
+          "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+          "locator": "September 11, 2026: apparently settled; evaluation remains unhurried"
+        }
+      ],
+      "review": {
+        "formalization": "published",
+        "independentVerification": "not-recorded",
+        "theoremCorrespondence": "pending",
+        "prize": "not-awarded",
+        "checkedAt": "2026-09-26",
+        "note": "Source-level review only. No independent proof build or theorem-correspondence audit recorded by this graph; this does not assert that no outside reviewer has checked it. Prize recognition is separate from mathematical acceptance."
+      },
+      "attribution": [
+        {
+          "name": "OpenAI",
+          "role": "Published result; internal model and research team",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "name": "Diego Córdoba and Luis Martínez-Zoroa",
+          "role": "Prior mathematical foundations; not sole attribution for the new result",
+          "source": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "role": "Formalization and verification reported by OpenAI, distinct from proof-generating internal model",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        }
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:openai-2026-fluid-results",
+      "method": "peer-assertion",
+      "evidence": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+        "https://github.com/openai/NavierStokesAndEuler"
+      ]
+    },
+    "status": "corroborated",
+    "asserted_at": "2026-09-08",
+    "space": "public"
+  },
+  {
+    "id": "contrib-openai-euler-unforced",
+    "kind": "contribution",
+    "subject": "euler-unforced-r3",
+    "body": {
+      "outcome": "full",
+      "grade": "resolution",
+      "class": "FORMAL",
+      "mode": "m-pos",
+      "claim": "OpenAI reports finite-time breakdown of unforced Euler on R3 from smooth compactly supported divergence-free data; velocity gradient and vorticity integral diverge.",
+      "refs": [
+        "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf",
+        "https://github.com/openai/NavierStokesAndEuler",
+        "https://openai.com/index/navier-stokes-solution/"
+      ],
+      "evidence": [
+        {
+          "kind": "paper",
+          "url": "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf",
+          "locator": "Theorem 1.1, page 1; prior foundations Section 1.1"
+        },
+        {
+          "kind": "formalization",
+          "url": "https://github.com/openai/NavierStokesAndEuler",
+          "locator": "README: Euler"
+        },
+        {
+          "kind": "announcement",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "locator": "September 8, 2026 announcement"
+        }
+      ],
+      "review": {
+        "formalization": "published",
+        "independentVerification": "not-recorded",
+        "theoremCorrespondence": "pending",
+        "prize": "not-applicable",
+        "checkedAt": "2026-09-26",
+        "note": "Source-level review only. No independent proof build or theorem-correspondence audit recorded by this graph; this does not assert that no outside reviewer has checked it. Prize recognition is separate from mathematical acceptance."
+      },
+      "attribution": [
+        {
+          "name": "OpenAI",
+          "role": "Published result; internal model and research team",
+          "source": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "name": "Diego Córdoba and Luis Martínez-Zoroa",
+          "role": "Prior mathematical foundations; not sole attribution for the new result",
+          "source": "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf"
+        }
+      ]
+    },
+    "source": {
+      "issuer": "agent:literature:openai-2026-fluid-results",
+      "method": "peer-assertion",
+      "evidence": [
+        "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf",
+        "https://github.com/openai/NavierStokesAndEuler"
+      ]
+    },
+    "status": "asserted",
+    "asserted_at": "2026-09-08",
+    "space": "public"
+  }
+]

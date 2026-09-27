@@ -398,14 +398,14 @@
   {
     "id": "smale-15",
     "slug": "smale-15-navier-stokes-existence-and-smoothness",
-    "title": "Navier–Stokes existence and smoothness",
-    "spec_version": 1,
-    "statement": "For the 3-D incompressible Navier–Stokes equations with smooth, finite-energy initial data, do smooth solutions exist for all time (existence and regularity)? Or can solutions form singularities in finite time? Open (also a Clay Millennium Problem).",
+    "title": "Navier–Stokes global regularity — unforced, whole space",
+    "spec_version": 2,
+    "statement": "For 3-D incompressible Navier–Stokes on R3, with positive viscosity, zero external force and smooth divergence-free rapidly decaying initial data, does a global smooth solution with uniformly bounded kinetic energy always exist? The September 2026 smooth-forced breakdown announcement does not settle this unforced question. This refines the previously ambiguous Smale-15 entry; the Clay A/B/C/D challenge and periodic variant are separate nodes.",
     "unknowns": [
       {
         "id": "u1",
         "kind": "proof",
-        "description": "a proof of global smooth existence, or a finite-time blow-up example"
+        "description": "a proof of unforced global regularity on R3, or an unforced smooth-data counterexample"
       }
     ],
     "success_modes": [
@@ -415,7 +415,7 @@
           {
             "id": "sc1",
             "class": "FORMAL",
-            "test": "an accepted global existence-and-smoothness proof"
+            "test": "an accepted proof of Clay alternative A: global smooth bounded-energy solutions for all admissible data with f identically zero on R3"
           }
         ]
       },
@@ -425,7 +425,7 @@
           {
             "id": "sc2",
             "class": "FORMAL",
-            "test": "exhibit smooth data whose solution blows up in finite time"
+            "test": "an accepted smooth-data finite-time breakdown example on R3 with f identically zero and positive viscosity; forced breakdown does not qualify"
           }
         ]
       }
@@ -445,9 +445,17 @@
     },
     "refs": [
       "https://en.wikipedia.org/wiki/Smale%27s_problems",
-      "Leray 1934; Smale 1998",
-      "Clay Millennium Problem"
-    ]
+      "Smale 1998; scope editorially refined 2026-09-26 (not a claim that the original list specified this exact domain)",
+      "https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf — alternative A, page 2",
+      "https://github.com/openai/NavierStokesAndEuler — announced Navier–Stokes results allow forcing (C/D)"
+    ],
+    "scope": {
+      "equations": "incompressible-navier-stokes",
+      "dimension": "3",
+      "domain": "R3",
+      "forcing": "zero",
+      "viscosity": "positive"
+    }
   },
   {
     "id": "smale-17",
